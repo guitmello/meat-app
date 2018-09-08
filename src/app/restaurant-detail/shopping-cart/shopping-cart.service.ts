@@ -5,7 +5,7 @@ import { NotificationService } from '../../shared/messages/notification.service'
 
 @Injectable()
 export class ShoppingCartService {
-    items: CartItem[] = [];
+    items: CartItem[] = []
 
     constructor(private notificationService: NotificationService){}
 

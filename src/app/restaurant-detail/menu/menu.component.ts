@@ -11,7 +11,7 @@ import { Observable } from 'rxjs/Observable';
 })
 export class MenuComponent implements OnInit {
 
-  menu: Observable<MenuItem>
+  menu: Observable<MenuItem[]>
 
   constructor(private resturantsService: RestaurantsService, private route: ActivatedRoute) { }
 
