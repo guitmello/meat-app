@@ -521,6 +521,22 @@
         }
       ],
       "id": 9
+    },
+    {
+      "name": "Administrador",
+      "email": "admin@gmail.com",
+      "emailConfirmation": "admin@gmail.com",
+      "adress": "dsadadadada",
+      "number": "123",
+      "optionalAdress": "1",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "donut"
+        }
+      ],
+      "id": 10
     }
   ]
 }
