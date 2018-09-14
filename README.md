@@ -1,10 +1,10 @@
 # meat-app
-Projeto desenvolvido durante as aulas do professor Tarso Bessa (https://www.udemy.com/angular-pt/)
+Project developed during the course: (https://www.udemy.com/angular-pt/). Teacher: Tarso Bessa
 
-Execut na raiz do projeto o *npm i*
+Execute in the root folder: *npm i*
 
-Execute o "back-end" com o *npm run server*
+Execute the "back-end" with: *npm run server*
 
-Execute o o projeto com o *npm start*
+Execute the project with: *npm start*
 
-Logue com o usuario: admin@gmail.com e senha: admin123
+Login with user: admin@gmail.com e password: admin123
