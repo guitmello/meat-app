@@ -3,8 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID, ErrorHandler } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, PreloadAllModules } from '@angular/router';
-//import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { LocationStrategy, HashLocationStrategy, registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
 
+registerLocaleData(localePt, 'pt');
 
 import {ROUTES} from './app.routes';
 
@@ -51,7 +53,7 @@ import { ApplicationErrorHandler } from './app.error-handler';
     RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules})
   ],
   providers: [
-    {provide: LOCALE_ID, useValue: 'pt-Br'},
+    {provide: LOCALE_ID, useValue: 'pt'},
     {provide: ErrorHandler, useClass: ApplicationErrorHandler}
   ],
   bootstrap: [AppComponent]
